@@ -36,7 +36,7 @@ public class PasswordGenerator {
         String password = "";
         for (int i = 0; i < a; i++) {
 
-            // randomize the type of characetr to randomize
+            // randomize the type of character to randomize
             int typeCharIndex = (int)(Math.ceil(Math.random() * 4));
 
             if (typeCharIndex == 1) {
@@ -62,3 +62,4 @@ public class PasswordGenerator {
     }
 
 }
+
