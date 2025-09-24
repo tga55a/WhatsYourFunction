@@ -7,7 +7,7 @@ public class MathHelper {
 
     public static int findMin(int a, int b) {
 
-        // if a is less than b, the a must be the minimum.
+        // if a is less than b, then a must be the minimum.
         // if b is less than a, then b must be the minimum.
         if (a < b) {
             return a;
@@ -28,4 +28,5 @@ public class MathHelper {
         printResult(sum);
         printResult(min);
     }
+
 }
